@@ -1,23 +1,25 @@
 {
 	"name": "hr-admin",
-	"description": "Build a personal website, blog, or portfolio with Astro.",
+	"description": "HR admin tools for Alternative Design And Media.",
 	"cloudflare": {
 		"label": "Astro Framework Starter",
-		"products": [
-			"Workers"
-		],
+		"products": ["Workers"],
 		"categories": [],
-		"preview_icon_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/394ca3c9-d351-4036-035a-9f6dfa26dd00/public",
-		"preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/f40a6577-eed5-4f3e-cef4-b5ef0a1be100/preview",
 		"publish": true
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "12.6.12",
 		"@astrojs/mdx": "4.3.13",
+		"@astrojs/react": "^4.3.0",
 		"@astrojs/rss": "4.0.14",
 		"@astrojs/sitemap": "3.6.1",
+		"@types/react": "^19.0.0",
+		"@types/react-dom": "^19.0.0",
 		"astro": "5.16.9",
-		"typescript": "5.9.3"
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"typescript": "5.9.3",
+		"xlsx": "^0.18.5"
 	},
 	"devDependencies": {
 		"wrangler": "4.88.0"
