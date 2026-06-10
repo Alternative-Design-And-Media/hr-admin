@@ -1,0 +1,24 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PremiumKalkulator from '../components/PremiumKalkulator';
+---
+
+<html lang="hu">
+  <head>
+    <BaseHead
+      title="Prémium Kalkulátor"
+      description="Havi prémium elszámolás – Outline Central Europe Kft."
+    />
+    <style>
+      body { background: #0c0f1a; }
+      main { max-width: 100%; padding: 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <PremiumKalkulator client:only="react" />
+    </main>
+  </body>
+</html>
